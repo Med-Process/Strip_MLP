@@ -107,7 +107,7 @@ The datasets of CIFAR-10 and CIFAR-100 can be download automatically for the tor
 
 ## Data preparation of Caltech-101 
 
-Download the dataset from [`Caltech-101`]('https://data.caltech.edu/records/mzrjq-6wc02'). We split the
+Download the dataset from [`Caltech-101`](https://data.caltech.edu/records/mzrjq-6wc02). We split the
 raw data into training dataset and testing dataset randomly. Here, we provide our code of dataset spliting (seeing the file [`categories101_train_val_split.py`]), which splits the 80% of each class of the data as the training set and the remaining data as the testing set. We set a fixed number, like [`1024`], as the seed in the program, so that the data spliting method can be reproduced.
 
 
