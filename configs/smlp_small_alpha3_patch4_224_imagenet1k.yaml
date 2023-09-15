@@ -1,0 +1,16 @@
+DATA:
+  IMG_SIZE: 224
+  DATA_PATH: "/home/ssd_14T/caogp/public_data/ImageNet1k"
+  DATASET: imagenet-1k
+
+MODEL:
+  TYPE: strip_mlp_layer
+  NAME: smlp_small_alpha3_patch4_224_imagenet1k
+  DROP: False
+  DROP_RATE: 0.2
+  NUM_CLASSES: 1000
+  ALPHA: 3
+  PATCH_NORM: True
+  STRIP_MLP:
+    EMBED_DIM: 96
+    LAYERS: [2, 2, 18, 2]

@@ -1,0 +1,15 @@
+DATA:
+  IMG_SIZE: 224
+  DATA_PATH: "/home/ssd_14T/caogp/public_data/101_OCategories_Split82"
+  DATASET: 101_ObjectCategories
+MODEL:
+  TYPE: strip_mlp_layer
+  NAME: categories101_smlp_tiny_alpha3_path4_224
+  DROP: False
+  DROP_RATE: 0.0
+  NUM_CLASSES: 101
+  ALPHA: 3
+  PATCH_NORM: True
+  STRIP_MLP:
+    EMBED_DIM: 80
+    LAYERS: [2, 2, 12, 2]

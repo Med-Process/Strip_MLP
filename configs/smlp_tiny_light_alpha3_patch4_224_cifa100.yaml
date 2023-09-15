@@ -1,0 +1,15 @@
+DATA:
+  IMG_SIZE: 224
+  DATA_PATH: "/home/ssd_14T/caogp/public_data/CIFAR100"
+  DATASET: CIFAR100
+MODEL:
+  TYPE: strip_mlp_layer
+  NAME: smlp_tiny_light_alpha3_patch4_224_cifa100
+  DROP: False
+  DROP_RATE: 0.2
+  NUM_CLASSES: 100
+  ALPHA: 3
+  PATCH_NORM: True
+  STRIP_MLP:
+    EMBED_DIM: 80
+    LAYERS: [2, 2, 6, 2]
