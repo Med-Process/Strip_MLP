@@ -7,13 +7,13 @@ This is the official code (based on Pytorch framework) for the paper ["Strip-MLP
 
 ***17/04/2024***
 
-Our new work ``MLP-DINO: Category Modeling and Query Graphing with Deep MLP for Object Detection'' has been accepted to IJCAI2024. Strip-MLP is extended to be a strong backbone for downstream task of object detection.
+Our new work ``MLP-DINO: Category Modeling and Query Graphing with Deep MLP for Object Detection'' has been accepted to IJCAI2024. Strip-MLP is extended to be a strong backbone for downstream task of object detection. The code of MLP-DINO will be available at [MLP-DINO](https://github.com/Med-Process/MLP-DINO).
 
 ***15/09/2023***
 
 Initial commits: we release the source codes and the checkpoints on ImageNet-1K.
 
-***07/14/2023***
+***14/07/2023***
 
 `News`: Strip-MLP has been accepted to ICCV 2023!
 
