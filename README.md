@@ -2,7 +2,9 @@
 
 This is the official code (based on Pytorch framework) for the paper ["Strip-MLP: Efficient Token Interaction for Vision MLP"](https://arxiv.org/pdf/2307.11458.pdf). Strip-MLP is a general backbone for vision MLP with significantly superiorities on the performance and computing complexity of the model.
 
+We visualize the Effective Receptive Fields (ERF), which represents the region in the input space that contributes to the activation of a certain output unit. Strip-MLP is capable of capturing both global and local ERFs simultaneously, indicating that the model is able to gather richer contextual information.
 
+![ERFs](resources/strip_mlp_erf.png)
 
 
 ## Updates
@@ -11,9 +13,6 @@ This is the official code (based on Pytorch framework) for the paper ["Strip-MLP
 
 Our new work ``MLP-DINO: Category Modeling and Query Graphing with Deep MLP for Object Detection'' has been accepted to IJCAI2024. Strip-MLP is extended to be a strong backbone for downstream task of object detection. The code of MLP-DINO will be available at [MLP-DINO](https://github.com/Med-Process/MLP-DINO).
 
-We visualize the Effective Receptive Fields (ERF), which represents the region in the input space that contributes to the activation of a certain output unit. Strip-MLP is capable of capturing both global and local ERFs simultaneously, indicating that the model is able to gather richer contextual information.
-
-![ERFs](resources/strip_mlp_erf.png)
 
 ***15/09/2023***
 
